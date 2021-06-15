@@ -119,6 +119,7 @@ def delete(taskid):
 def addTask(tasktype):
     if 'user' in session :
         dets = dict(db.child("users").child(session["idDb"]).get().val())
+        name = dets['name']
         if 'usertasks' in dets:
             tasks = dets['usertasks']
         else:
@@ -139,7 +140,7 @@ def addTask(tasktype):
             taskType = 'in-progress'
         else:
             taskType = tasktype
-        return render_template('addtask.html',tasktype=taskType,act=tasktype)
+        return render_template('addtask.html',tasktype=taskType,act=tasktype,name=name)
     else:
         return redirect(url_for('authPage'))
 
