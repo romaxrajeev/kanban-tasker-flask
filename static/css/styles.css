@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;900&display=swap");
+.to-do {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#FFA3A3), to(#FB8686));
+  background-image: linear-gradient(to bottom right, #FFA3A3, #FB8686);
+}
+
+.in-progress {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#FFD5BB), to(#FAC9AC));
+  background-image: linear-gradient(to bottom right, #FFD5BB, #FAC9AC);
+}
+
+.review {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#FFF1A9), to(#F6E384));
+  background-image: linear-gradient(to bottom right, #FFF1A9, #F6E384);
+}
+
+.done {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#99FFA6), to(#74F384));
+  background-image: linear-gradient(to bottom right, #99FFA6, #74F384);
+}
+
+body {
+  background-image: url("../img/background.png");
+  background-attachment: fixed;
+}
+
+.navbar {
+  color: #EDEDED;
+  font-family: "Nunito";
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+.title {
+  font-family: "Nunito";
+  font-weight: 900;
+  font-size: 2em;
+  color: #EDEDED;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.sub-title {
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 1.3em;
+  color: #EDEDED;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.left {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.input {
+  margin-bottom: 5%;
+  margin-top: -1%;
+  border-radius: 7px;
+  background-color: #2E2E2E;
+  width: 80%;
+  padding: 0.5em 1em;
+  border: 1px solid #EDEDED;
+  color: #EDEDED;
+}
+
+.label {
+  color: #EDEDED;
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.label:hover .forgot:hover {
+  color: #EDEDED !important;
+}
+
+.button {
+  background-color: #EDEDED;
+  color: #2E2E2E;
+  padding: 0.5em 1.5em;
+  border-radius: 10px;
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 1em;
+  border: none;
+}
+
+.forgot {
+  font-size: 0.8em;
+  font-weight: 600;
+  font-family: "Nunito";
+  color: #797979;
+  margin-left: 3%;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.heading {
+  font-family: "Nunito";
+  font-weight: 900;
+  font-size: 1em;
+}
+
+.sub-heading {
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 0.8em;
+  margin-top: -1%;
+}
+
+.task-header {
+  padding: 0.4em 0.8em;
+  text-align: center;
+  color: #2E2E2E;
+  border-radius: 15px;
+  font-family: "Nunito";
+  font-weight: 900;
+  font-size: 1em;
+  text-align: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.header-wrapper:hover .task-header span {
+  display: none;
+}
+
+.header-wrapper:hover .task-header::after {
+  content: 'Add New Task';
+}
+
+.task {
+  background-color: #393939;
+  padding: 0.5em 1em;
+  border-radius: 9px;
+  color: #EDEDED;
+  font-family: "Nunito";
+}
+
+.task .circle {
+  border-radius: 100%;
+  text-align: center;
+  padding: 0.4em;
+  cursor: pointer;
+  color: #2E2E2E;
+  font-weight: 900;
+}
+
+.task .task-heading {
+  font-size: 1.2em;
+  font-weight: 900;
+}
+
+.task .task-desc {
+  font-size: 1em;
+  font-weight: 600;
+}
+/*# sourceMappingURL=styles.css.map */

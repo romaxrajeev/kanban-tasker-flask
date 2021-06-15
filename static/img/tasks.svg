@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="805" height="815" viewBox="0 0 805 815">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffa3a3"/>
+      <stop offset="1" stop-color="#fb8686"/>
+    </linearGradient>
+    <filter id="Rectangle_1" x="18" y="0" width="373" height="86" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#f88" flood-opacity="0.451"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_7" x="0" y="90" width="409" height="236" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9" result="blur-2"/>
+      <feFlood flood-color="#1c1c1c" flood-opacity="0.91"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_8" x="0" y="302" width="409" height="269" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9" result="blur-3"/>
+      <feFlood flood-color="#1c1c1c" flood-opacity="0.91"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="1" y1="1" x2="0" y2="0.124" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fac9ac"/>
+      <stop offset="1" stop-color="#ffd5bb"/>
+    </linearGradient>
+    <filter id="Rectangle_2" x="414" y="79" width="373" height="86" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-color="#fac9ac" flood-opacity="0.451"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_9" x="396" y="169" width="409" height="269" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9" result="blur-5"/>
+      <feFlood flood-color="#1c1c1c" flood-opacity="0.91"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="0.981" y1="1" x2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#74f384"/>
+      <stop offset="1" stop-color="#99ffa6"/>
+    </linearGradient>
+    <filter id="Rectangle_5" x="414" y="456" width="373" height="86" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-color="#74f384" flood-opacity="0.451"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_10" x="396" y="546" width="409" height="269" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9" result="blur-7"/>
+      <feFlood flood-color="#1c1c1c" flood-opacity="0.91"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_22" data-name="Group 22" transform="translate(-972 -146)">
+    <g id="Group_12" data-name="Group 12" transform="translate(930 -191)">
+      <g transform="matrix(1, 0, 0, 1, 42, 337)" filter="url(#Rectangle_1)">
+        <rect id="Rectangle_1-2" data-name="Rectangle 1" width="355" height="68" rx="15" transform="translate(27 7)" fill="url(#linear-gradient)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 42, 337)" filter="url(#Rectangle_7)">
+        <rect id="Rectangle_7-2" data-name="Rectangle 7" width="355" height="182" rx="15" transform="translate(27 111)" fill="#393939"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 42, 337)" filter="url(#Rectangle_8)">
+        <rect id="Rectangle_8-2" data-name="Rectangle 8" width="355" height="215" rx="15" transform="translate(27 323)" fill="#393939"/>
+      </g>
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="23" cy="23" r="23" transform="translate(363 470)" fill="#f88"/>
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="23" cy="23" r="23" transform="translate(363 674)" fill="#f88"/>
+      <text id="To_Do" data-name="To Do" transform="translate(207 390)" fill="#2e2e2e" font-size="29" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="0" y="0">To Do</tspan></text>
+      <text id="Client_1_Meet" data-name="Client 1 Meet" transform="translate(103 501)" fill="#e0e0e0" font-size="31" font-family="Nunito-Black, Nunito" font-weight="800"><tspan x="0" y="0">Client 1 Meet</tspan></text>
+      <text id="Design_Logo_for_Client_2" data-name="Design Logo
+for Client 2" transform="translate(103 712)" fill="#e0e0e0" font-size="31" font-family="Nunito-Black, Nunito" font-weight="800"><tspan x="0" y="0">Design Logo</tspan><tspan x="0" y="42">for Client 2</tspan></text>
+      <text id="Zoom_Meeting_at_5pm_Discuss_the_payment" data-name="Zoom Meeting at 5pm
+Discuss the payment" transform="translate(103 554)" fill="#e0e0e0" font-size="18" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Zoom Meeting at 5pm</tspan><tspan x="0" y="28">Discuss the payment</tspan></text>
+      <text id="Cooking_Channel_for_YouTube._Give_first_stage_by_15th_June." data-name="Cooking Channel for YouTube.
+Give first stage by 15th June." transform="translate(103 809)" fill="#e0e0e0" font-size="18" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Cooking Channel for YouTube.</tspan><tspan x="0" y="28">Give first stage by 15th June.</tspan></text>
+      <path id="path" d="M343.532,875l9.993,9.993-9.993,9.993-2.332-2.332,7.661-7.661-7.661-7.661Z" transform="translate(39.638 -391.993)" fill="#2e2e2e"/>
+      <path id="path-2" data-name="path" d="M343.532,875l9.993,9.993-9.993,9.993-2.332-2.332,7.661-7.661-7.661-7.661Z" transform="translate(39.638 -187.993)" fill="#2e2e2e"/>
+      <path id="path-3" data-name="path" d="M21.71,152.748H14.548v7.161H12.161v-7.161H5v-2.387h7.161V143.2h2.387v7.161H21.71Z" transform="translate(379.145 226.945)" fill="#2e2e2e"/>
+    </g>
+    <g id="Group_13" data-name="Group 13" transform="translate(850 -112)">
+      <g transform="matrix(1, 0, 0, 1, 122, 258)" filter="url(#Rectangle_2)">
+        <rect id="Rectangle_2-2" data-name="Rectangle 2" width="355" height="68" rx="15" transform="translate(423 86)" fill="url(#linear-gradient-2)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 122, 258)" filter="url(#Rectangle_9)">
+        <rect id="Rectangle_9-2" data-name="Rectangle 9" width="355" height="215" rx="15" transform="translate(423 190)" fill="#393939"/>
+      </g>
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="23" cy="23" r="23" transform="translate(839 470)" fill="#fac9ac"/>
+      <text id="In_Progress" data-name="In Progress" transform="translate(646 390)" fill="#2e2e2e" font-size="29" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="0" y="0">In Progress</tspan></text>
+      <text id="Design_Mockup_for_Client_3" data-name="Design Mockup
+for Client 3" transform="translate(581 501)" fill="#e0e0e0" font-size="31" font-family="Nunito-Black, Nunito" font-weight="800"><tspan x="0" y="0">Design Mockup</tspan><tspan x="0" y="42">for Client 3</tspan></text>
+      <text id="Client_3_UI_Mockup_for_Shoe_E-Commerce_Website" data-name="Client 3 UI Mockup for Shoe
+E-Commerce Website" transform="translate(581 598)" fill="#e0e0e0" font-size="18" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Client 3 UI Mockup for Shoe</tspan><tspan x="0" y="28">E-Commerce Website</tspan></text>
+      <path id="path-4" data-name="path" d="M343.532,875l9.993,9.993-9.993,9.993-2.332-2.332,7.661-7.661-7.661-7.661Z" transform="translate(514.638 -391.993)" fill="#2e2e2e"/>
+      <path id="path-5" data-name="path" d="M21.71,152.748H14.548v7.161H12.161v-7.161H5v-2.387h7.161V143.2h2.387v7.161H21.71Z" transform="translate(857 226.945)" fill="#2e2e2e"/>
+    </g>
+    <g id="Group_14" data-name="Group 14" transform="translate(-101 265)">
+      <g transform="matrix(1, 0, 0, 1, 1073, -119)" filter="url(#Rectangle_5)">
+        <rect id="Rectangle_5-2" data-name="Rectangle 5" width="355" height="68" rx="15" transform="translate(423 463)" fill="url(#linear-gradient-3)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 1073, -119)" filter="url(#Rectangle_10)">
+        <rect id="Rectangle_10-2" data-name="Rectangle 10" width="355" height="215" rx="15" transform="translate(423 567)" fill="#393939"/>
+      </g>
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="23" cy="23" r="23" transform="translate(1790 470)" fill="#74f384"/>
+      <text id="Done" transform="translate(1638 390)" fill="#2e2e2e" font-size="29" font-family="Nunito-ExtraBold, Nunito" font-weight="800"><tspan x="0" y="0">Done</tspan></text>
+      <text id="Complete_the_Assignment" data-name="Complete the
+Assignment" transform="translate(1531 501)" fill="#e0e0e0" font-size="31" font-family="Nunito-Black, Nunito" font-weight="800"><tspan x="0" y="0">Complete the</tspan><tspan x="0" y="42">Assignment</tspan></text>
+      <text id="Cloud_Computing_Assignment_Due:_10th_June" data-name="Cloud Computing Assignment
+Due: 10th June" transform="translate(1531 598)" fill="#e0e0e0" font-size="18" font-family="Nunito-Regular, Nunito"><tspan x="0" y="0">Cloud Computing Assignment</tspan><tspan x="0" y="28">Due: 10th June</tspan></text>
+      <path id="path-6" data-name="path" d="M21.71,152.748H14.548v7.161H12.161v-7.161H5v-2.387h7.161V143.2h2.387v7.161H21.71Z" transform="translate(1808 226.945)" fill="#2e2e2e"/>
+      <path id="path-7" data-name="path" d="M268.986,887.634,282.02,874.6l1.721,1.722-14.756,14.756-6.886-6.886,1.721-1.722Z" transform="translate(1540.079 -389.839)" fill="#2e2e2e"/>
+    </g>
+  </g>
+</svg>

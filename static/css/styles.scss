@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;900&display=swap');
+
+@mixin center-align {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+$light-grey: #EDEDED;
+$dark-grey: #2E2E2E;
+$lighter-grey: #393939;
+$font: 'Nunito';
+
+$light-pink: #FFA3A3;
+$dark-pink: #FB8686;
+
+$light-orange: #FFD5BB;
+$dark-orange: #FAC9AC;
+
+$light-yellow: #FFF1A9;
+$dark-yellow: #F6E384;
+
+$light-green: #99FFA6;
+$dark-green: #74F384;
+
+.to-do{
+    background-image: linear-gradient(to bottom right, $light-pink, $dark-pink);
+}
+
+.in-progress{
+    background-image: linear-gradient(to bottom right, $light-orange, $dark-orange);
+}
+
+.review{
+    background-image: linear-gradient(to bottom right, $light-yellow, $dark-yellow);
+}
+
+.done{
+    background-image: linear-gradient(to bottom right, $light-green, $dark-green);
+}
+
+body{
+    background-image: url("../img/background.png");
+    background-attachment: fixed;
+}
+
+.navbar{
+    color: $light-grey;
+    font-family: $font;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.title{
+    font-family: $font;
+    font-weight: 900;
+    font-size: 2em;
+    color: $light-grey;
+    @include center-align;
+}
+
+.sub-title{
+    font-family: $font;
+    font-weight: 600;
+    font-size: 1.3em;
+    color: $light-grey;
+    @include center-align;
+}
+
+.left{
+    align-self: center;
+    display: block;
+    justify-content: center;
+}
+
+.input{
+    margin-bottom: 5%;
+    margin-top: -1%;
+    border-radius: 7px;
+    background-color: $dark-grey;
+    width: 80%;
+    padding: 0.5em 1em;
+    border: 1px solid $light-grey;
+    color: $light-grey;
+}
+
+.label{
+    color: $light-grey;
+    font-family: $font;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.label:hover .forgot:hover{
+    color: $light-grey !important;
+}
+
+.button{
+    background-color: $light-grey;
+    color: $dark-grey;
+    padding: 0.5em 1.5em;
+    border-radius: 10px;
+    font-family: $font;
+    font-weight: 600;
+    font-size: 1em;
+    border: none;
+}
+
+.forgot{
+    font-size: 0.8em;
+    font-weight: 600;
+    font-family: $font;
+    color: #797979;
+    margin-left: 3%;
+}
+
+.error{
+    border: 1px solid red;
+}
+
+.heading{
+    font-family: $font;
+    font-weight: 900;
+    font-size: 1em;
+}
+
+.sub-heading{
+    font-family: $font;
+    font-weight: 600;
+    font-size: 0.8em;
+    margin-top: -1%;
+}
+
+.task-header{
+    padding: 0.4em 0.8em;
+    text-align: center;
+    color: $dark-grey;
+    border-radius: 15px;
+    font-family: $font;
+    font-weight: 900;
+    font-size: 1em;
+    text-align: center;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.header-wrapper:hover .task-header span{
+    display: none;
+}
+
+.header-wrapper:hover .task-header::after{
+    content: 'Add New Task';
+}
+
+.task{
+    background-color: $lighter-grey;
+    padding: 0.5em 1em;
+    border-radius: 9px;
+    color: $light-grey;
+    font-family: $font;
+
+    .circle{
+        border-radius: 100%;
+        text-align: center;
+        padding: 0.4em;
+        cursor: pointer;
+        color: $dark-grey;
+        font-weight: 900;
+    }
+
+    .task-heading{
+        font-size: 1.2em;
+        font-weight: 900;
+    }
+
+    .task-desc{
+        font-size: 1em;
+        font-weight: 600;
+    }
+}
