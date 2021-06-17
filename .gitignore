@@ -1,1 +1,4 @@
 /kanban-flask
+/__pycache__
+configData.py
+Procfile
